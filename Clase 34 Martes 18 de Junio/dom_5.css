@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body  {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+    background-color: cornflowerblue;
+}
+
+.click {
+    padding: 30px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.click_counter {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.buttons_box {
+    padding: 10px;
+    text-align: center; 
+}
+
+main {
+
+}
+

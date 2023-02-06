@@ -1,0 +1,33 @@
+JAVASCRIPT 7:
+---------------------------------------------------------------
+
+Variables: (RECORDATORIO)
+.........................
+
+PROPAGATION:
+------------
+Sirve para propagar el evento que nosotros queremos.
+
+Ejemplo:
+
+cons botonProp = document. querySelector ('.botonProp');
+const parrafoProp.add
+
+e.stopPropagation:
+Evita que un lugar donde puedan desencadenarse varios eventos, se produzcan tantos.
+
+e.preventDefault:
+Previene los eventos que vienen por defecto (Como en links y formularios)
+
+DELEGATION:
+-----------
+Sirve para delegar en el evento que queremos eliminar
+
+Ejemplo:
+
+window.addEventListener('click'. (e) => {
+    if (e.target.classList.contains
+    ('botonEspecial')) {
+        e.target.remove();
+    }
+})

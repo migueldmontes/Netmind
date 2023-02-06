@@ -1,0 +1,25 @@
+JAVASCRIPT 6:
+-----------------------------------------------------------------
+
+Eventos: (Recordatorio)
+.......................
+
+//* Event Listeners
+
+botonEventos.addEventListener('input', eventOn);
+
+function eventON (e) {
+    console.log (e.key);
+if (e.key == 'a') 
+caja.Gris.style.background = 'crimson'
+}
+output.innerHTML = e.key
+}
+
+-----------------------------------------------------------------
+
+e.target (Informacion de que funcion busca el evento)
+e.key 
+mouseOver (Activa el evento)
+mouseCenter (Mientras estoy en el centro)
+mouseMove (Mientras me muevo dentro)
