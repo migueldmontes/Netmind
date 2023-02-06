@@ -1,0 +1,19 @@
+header {
+    background-color: #33C3F0;
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+section {
+    border: solid lightgray 1px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.section_fourth {
+    display: flex;
+        align-items: center;
+}

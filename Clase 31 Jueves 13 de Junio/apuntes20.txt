@@ -1,0 +1,37 @@
+JAVASCRIPT 6:
+-----------------------------------------------------------------------------------------------
+
+Eventos:
+........
+
+Los eventos se escriben siempre en linea y activan funciones que permiten variar no solo de aspecto sino tambien la disposicion del elemento.
+
+click "Nombre de una función"         En linea
+
+Elemento: addEventListener ('click' , cambiarColor );
+(Elemento que queremos escuchar)
+-------------
+click       -
+mouseOver   -             Tipos de eventos:
+mouseUp     -
+submit      -
+-------------
+
+Objeto Evento:
+..............
+Te da informacion acerca de evento en cuestion.
+
+e.preventDefault()
+e.target()
+
+Expresiones Regulares:
+......................
+Esta funcion sirve para validar un texto.
+
+Ejemplo:
+--------
+let frase = 'hola'
+let expReg = /[a-z]/;
+
+console.log(expReg.text('hola));
+
