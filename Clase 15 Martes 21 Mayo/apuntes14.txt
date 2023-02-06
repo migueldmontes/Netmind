@@ -1,0 +1,16 @@
+FLEX BOX: (Propiedad de Display)
+...................................................................
+
+flex-direction: row / column
+flex-wrap: wrap 
+align-content: stretch, flex-start, center, flex-end, space-between, baseline, space-around
+justify-content: flex-start, flex-end, flex-center, baseline, space-between
+flex-grow: 0 por defecto, 1; 
+flex-shrink: 1 por defecto
+flex-basis: 80px; (ancho deseado)
+flex: 0 1 120px;
+order: (orden)
+align-self: flex-start, flex-end, center, stretch, baseline
+(Alinear a cada uno por separado)
+
+margin-left: auto;
