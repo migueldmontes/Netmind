@@ -1,0 +1,136 @@
+JAVASCRIPT 2
+..................................................................
+
+
+Propiedades de un string:
+-------------------------
+- Las propiedades se llaman con la nomenclatura del punto.
+
+- Declaramos la variable 'cadena': let cadena = 'Hola gente!';
+
+cadena.length; // 11 (Devuelve la longitud de la cadena contando espacios)
+
+
+Arrays - Parte I:
+-----------------
+- Estructuras que nos permiten almacenar varios datos y agruparlos
+
+Se pueden llenar con cualquier tipo de dato y incluso mezclar datos, pero no lo recomiendo.
+
+Se declaran con los corchetes []
+
+Pueden declararse vacios o ya con contenido
+
+Ejemplo:
+--------
+let array = []; // Array declarado pero vacío
+let numeros = [1,2,3,4,5]; // Array declarado con valores
+
+Pueden añadirse o eliminarse elementos cuando queramos
+
+Cada elemento del array es identificado por su indice, es decir su posición
+
+Los indices empiezan a contar desde 0
+
+Ejemplo:
+--------
+let numeros = [1,2,3,4,5]
+console.log(numeros[3]); // Imprimira el número en la posicion 3, en este caso 4
+
+Se pueden operar con los elementos tranquilamente (sumar, concatenar, restar, etc)
+
+Propiedad length de un Array:
+-----------------------------
+La propiedad length nos devolvera la longitud del Array
+
+Ejemplo:
+--------
+let numbers = [10,23,32,41,57];
+console.log(numbers.length); // 5
+
+
+Bucles:
+-------
+Se usan para repetir trozos de código
+
+La estructura de un bucle siempre es:
+
+Bucle {
+    codigo a ejecutar
+}
+
+Bucle for:
+----------
+Es un bucle determinado ya que hay que decirle cuantas vueltas va a dar en su ejecución 
+
+Se escribe con 3 partes:
+
+- Iniciacion de una variable (que se suele llamar i)
+- Número de vueltas
+- Incremento o decremento de la variable
+
+Ejemplo:
+--------
+for (let i=0; 1<=10; i++) {
+    console.log(i); // se imprimirá una lista de 1 a 11
+}
+
+- La variable empieza en 0, dará vueltas el bucle hasta llegar a 10 (en este caso 11 vueltas), y cada vuelta la i se incrementa en uno.
+
+- Ejemplo de un if dentro de un for:
+------------------------------------
+
+for (let i=0; i<=10; i++) {
+    if (i!=5 && i!=8) {
+        console.log(i); // 0 1 2 3 4 6 7 9 10 (No se imprimen ni el 5 ni el 8)
+    }
+}
+
+Arrays dentro de un bucle for:
+------------------------------
+Hay que observar que para pasar por todas las posiciones de un array, el bucle dará tantas vueltas como  el length de nuestro array.
+
+Ejemplo:
+--------
+let numbers = [15,46,37,85,41]
+for (let i=0; i < numbers.lenght; i++) {
+    console.log (`i vale ${i} y el valor de esa posicion en el array es ${numbers [i]}` };
+}
+
+// i vale 0 y el valor de esa posicion en el array es 15
+// i vale 1 y el valor de esa posicion en el array es 46
+
+break; y continue;
+------------------
+- Lo que hace break; es cortar el bucle donde hemos puesto la palabra y no continúa. El navegador empezará a leer despues del bucle otra vez.
+
+Ejemplo:
+--------
+let numbers = [1,2,3,4];
+for (i=0; i < numbers.lenght; i++) {
+    if(numbers[i] == 3) {
+        break;
+    }
+    console.log(numbers[i]);
+}
+console.log('Mensaje despues del bucle');
+
+// 1
+// 2
+// Mensaje despues del bucle
+
+
+Bucle for...in:
+---------------
+- Tenemos exactamente el mismo tipo de bucle que el anterior. No hace falta decirle cuantas vueltas ni cuando termina. Pero en este caso, lo que nos devuelve es el indice de cada valor del array.
+- Este tipo de bucle se utiliza sobretodo en objetos que es algo que veremos mas adelante.
+
+Ejemplo:
+--------
+let nombres = ['Ivan, 'Jess', 'Freya, 'Kira'];
+for (let index in nombres) {
+    console.log(index); // 0 1 2 3
+}
+
+
+

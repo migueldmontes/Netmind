@@ -1,0 +1,135 @@
+JAVASCRIPT:
+......................................................................
+
+Necesita un archivo HTML para empezar a crear codigo
+Entre <head> o <body> añadiremos la etiqueta <script>
+
+Comentarios de una linea:
+-------------------------
+// comentario de una sola línea
+/* comentario de varias líneas de texto */
+
+- Es un lenguaje "case sensitive". Es decir que es sensible a mayusculas y minusculas
+
+Cada sentencia de codigo se termina en punto y coma;
+Los bloques de codigo siempre se terminan al cerrar las llaves }
+
+Variables:
+----------
+Las variables las podemos declarar, inicializar y modificar
+
+let: Nombre que quieres ponerle a la variable
+Variable: Dato de texto o numero que queremos almacenar en la memoria
+
+El signo = asigna a la variable
+
+El texto siempre en " o ''
+
+Probar nuestro Codigo:
+----------------------
+Para probar nuestro codigo y ver como funciona puede hacerse lo siguiente:
+
+window.alert(Variable);
+alert('Variable');
+
+document.write(Variable);
+(Este no se utiliza)
+
+console.log(Variable);
+
+Constantes:
+-----------
+Las constantes son exactamente igual que las variables pero son siempre igual, no se modifican.
+
+const MICONSTANTE = 3.1416;
+(Solo se declaran y se inicializan)
+
+
+Datos que podemos almacenar:
+----------------------------
+Numeros que pueden ser positivos, negativos, decimales..etc 
+Cadenas de texto (Strings)
+Booleanos - Solo tienes dos valores: true (se cumple) / false (no se cumple)
+Undefined (No esta definido)
+Null (Es nulo o incorrecto)
+
+Operadores matemáticos:
+-----------------------
+Son los operadores que todos conocemos
+
+sumar y concatenar +
+restar -
+Multiplicacion *
+División /
+Modulo que devuelve el resto que queda cuando un numero se divide por otro %
+
+variable.toFixed(numeroDeDecimales);
+- Para hacer que un resultado en un string solo tenga un numero determinado de decimales
+
+Operadores de asignacion:
+-------------------------
+El simbolo = asigna o modifica un valor o una variable
+
+
+Estructuras Condicionales: Parte 1
+----------------------------------
+
+> Mayor que...
+< Menor que...
+>= Mayor o igual que...
+<= Menor o igual que....
+== Igual que.... (Es verdadero incluso si comparamos valores de distinto tipò)
+==== Igual que (En este caso NO se considera verdadero cuando los valores a comparar son de diferente tipo)
+!= Distinto que...
+&& Y... (Obliga a que se cumpla una condicion Y tambien la otra para dar true)
+|| O... (Solo con que una de las dos condiciones se cumpla dara true)
+
+Estructuras:
+------------
+if: Si ocurre esto...haz esto.
+
+if (dato1 > dato 2) {
+    console.log('El primer dato es mayor al segundo')
+}
+
+
+if else: En cambio, si ocurre esto otro...entonces haz esto otro.
+
+if (dato1 > dato2) {
+    console.log('El primer dato es mayor al segundo');
+} else if (dato1 == dato2) {
+    console.log('Los dos datos son iguales');
+}
+
+else: En cualquier otro caso...haz esto.
+
+if (dato 1 > dato 2) {
+    console.log('El primer dato es mayor al segundo');
+} else if (dato1 == dato2) {
+    console.log('Los dos datos son iguales');
+} else {
+    console.log('Nada se ha cumplido');
+}
+
+Método Prompt:
+--------------
+El metodo prompt nos permite pedirle al usuario algun dato a traves de una ventana Pop-up del navegador.
+
+let variable = prompt ('Mensaje que le aparece al usuario')
+let variable = number (Para que todo lo que se escriba se guarde como string)
+
+Template Strings:
+-----------------
+Una plantilla de cadena de texto es como un string normal pero permite una serie de cosas 
+
+- Se escribe con comillas invertidas ``,
+- Permite hacer saltos de linea como si de una etiqueta <pre> se tratara
+- Podemos incrustar JavaScript dentro de la cadena de texto, para ello crearemos un bloque asi: $ {} y todo lo que vaya dentro sera codigo (variables, funciones, bucles...)
+
+Switch:
+-------
+Funciona como un if pero va revisando caso por caso con opciones establecidas.
+
+La palabra "break" lo que hace es decirle al navegador que no continue revisando casos, sino seguiría
+
+El default final es como un "else", si no se cumple nada eso es lo que pasará
