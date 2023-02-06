@@ -1,0 +1,12 @@
+Visibilidad:
+...............................................................
+visibility - Visibilidad de la caja (visible / hidden)
+
+Opacidad:
+...............................................................
+opacity - Opacidad de la caja  (0 / 1)
+
+
+FUNCION CSS:
+.............
+calc - (Calcula operaciones matematicas)

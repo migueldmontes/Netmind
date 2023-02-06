@@ -1,0 +1,29 @@
+* {margin: 0px; padding: 0px;}
+
+.container {
+width: 70%;
+background-color: yellow;
+
+}
+
+h1 {
+background-color: black;
+color: white;
+margin-top: 1px;
+padding: 0px;
+}
+
+.banner {
+
+}
+
+.post {
+background-color: darkgrey;
+padding: 15px;
+
+}
+
+.background {
+background-color: yellow;
+
+}

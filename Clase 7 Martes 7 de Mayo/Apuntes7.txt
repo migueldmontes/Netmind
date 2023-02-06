@@ -1,0 +1,28 @@
+Posicionamiento y Visualizacion en Pantalla: (HTML5)
+...............................................................
+box-sizing: Propiedad para ponerle el sitio a la caja
+content box: (Todo el contenido de la caja)
+border box: (El contenido mas el padding y el borde hacen lo mismo que el width)
+...............................................................
+display: (Como se comporta la caja en pantalla)
+inline - En linea 
+block - En bloque
+inline-block: Mix de las dos
+none: No se ven las cajas
+grid - 
+flox -
+...............................................................
+position: - Como se posiciona la caja en pantalla
+position: + valor
+top: +valor - Posiciona arriba
+left: Posiciona a la izquierda
+right: Posiciona la derecha
+bottom: Posiciona abajo
+static: Posicion por defecto
+relative: Todo se queda igual
+absolute: Se sale del flujo
+fixed: - Posicion fija
+writing-mode - Escritura vertical
+sticky; Cuando acaba la caja baja automaticamente
+z-index: Encima de las otras cuando no tiene position
+

@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Popins Regular';
+    src: url(Fuentes/Poppins-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+    img {
+        max-width: 100%;
+    }
+
+
+
+body {
+    background-color: #333333;
+}
+
+.container {
+    width: 600px;
+    border: 1px solid yellow;
+    margin: 0 auto;
+
+
+}
+
+.mainMenu {
+    list-style: none;
+}
+
+.mainMenuItem {
+    display: inline-block;
+    padding: 0.5em;
+    background-color: olive;
+    border-radius: 5px;
+    position: relative;
+}
+
+.barraSuperior {
+    background-color: ;
+    padding: 3em 7em;
+    text-align: right;
+}
+
+.barraMenu {
+    background-color: white;
+    padding: 1.5em;
+}
+.tituloPrincipal {
+    font-family: Popins Bold;
+    font-weight: 900;
+}
+
+.iconosSociales {
+    display: inline-block;
+   
+}
+
+.clear {
+    clear: both;
+}
+
+.socialArriba {
+    color: white;
+    font-size: 1,2em;
+}
+
+.socialArriba.hover {
+    color: lightsalmon;
+}
+
+.cajaLogo, .mainMenu {
+display: inline-block;
+
+}
+
+.cajaLogo {
+    width: 100px;
+}
+
+.submenu{
+    position: absolute;
+    left: 0;
+}
+.submenuItem {
+    background-color: salmon;
+    padding: 3em 1em;
+    border-radius: 5px;
+
+}

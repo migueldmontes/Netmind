@@ -1,0 +1,53 @@
+Recordatorios:
+.................................................................
+< = &t;
+Añadir emojis: #; Numero de emoji
+
+
+Soportes:
+..................................................................
+webkit: (Google Chrome- Safari)
+moz (Firefox)
+o: (Opera)
+ms: (Microsoft)
+
+Dimensiones: (HTML)
+..................................................................
+
+Unidades de medida: 
+
+em = 16px (Fuentes)
+(Equivale a las dimensiones de la caja que lo contiene)
+
+rem= 1rem (Fuentes)
+(Segun el tamaño de fuente principal)
+
+
+OVERFLOW: (Lo que sobra)
+overflow: auto; (Automatico)
+overflow: scroll; (Hacer scroll sobre la caja)
+overflow: hidden; (Esconder lo que sale en la caja)
+
+max-width; (Ancho maximo)
+max-height; (Altura maxima)
+min-height; (Altura minima)
+min-width; (Ancho minimo)
+
+viewworts (50vw) (Se mantiene igual en el navegador)
+
+Pseudo-Clases / Pseudo-Elementos:
+...................................................................
+
+first-child; (Llama al primer hijo)
+last-child; (Llama al ultimo hijo)
+first-ot-type; (Llama al primer hijo de una etiqueta en concreto)
+:nt-child; (nº) (Llama al hijo que quieres)
+od: (impar) even: (par)
+not: (Especifica clase o etiqueta)
+:link (Llama a enlaces)
+:active (Activa las propiedades CSS cuando el enlace esta siendo utilizado)
+:visited (Activa las propiedades CSS cuando el enlace ha sido usado)
+:hover (Activa las propiedades CSS cuando el raton se pone encima)
+:first letter (Primera letra del parrafo hace algo)
+:first line (Primera linea del parrafo hace algo)
+:texto p: selection (Selecciona todo el parrafo o lo que selecciones)

@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+ width: 80%;
+ height: 50vh;
+ border: solid 1px;   
+ margin: 30px auto;
+}
+
+.Caja1 {
+    background-color: rgb(240, 166, 71);
+    width: 100%;
+    height: 20%;
+    border: solid black 1px;
+}
+
+.Caja2 {
+    background-color: lightskyblue;
+    border: solid black 1px;
+    width: 30%;
+    height: 20%;
+    position: absolute;
+
+}
+
+.Caja3 {
+    background-color: lightgoldenrodyellow;
+    border: solid black 1px;
+    width: 30%;
+    height: 18.5%;
+    position: absolute;
+    display: inline-block;
+    
+}
+
+.Caja4 {
+    background-color: lightpink;
+    border: solid black 1px;
+    width: 50%;
+    height: 40%;
+    right: 0;;
+    position: absolute;
+    
+}
+
+.Caja5 {
+    background-color: lightgreen;
+    width: 80%;
+    height: 10%;
+    border: solid black 1px;
+    bottom: 0%;
+    position: absolute;
+    
+    
+
+}
