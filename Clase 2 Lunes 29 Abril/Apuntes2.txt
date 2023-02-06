@@ -1,0 +1,146 @@
+Agregar archivos a mi web (HTML5)
+...........................................................
+
+Head
+...........................................................
+Agregar Icono 
+<link rel="icon" href
+
+Hoja de Estilos
+link rel="stylesheet" href
+
+Ayudas de Emmet - Trucos Visual Code (Para escribir mas rapido)
+
+Atributos
+...........................................................
+<html lang="es-es"> (Etiqueta de Lenguaje) Español España
+Alt (Descripcion) Foto
+
+download - Enlace a descargar imagen
+
+Imágenes
+...........................................................
+<img> <src="texto de la imagen" title="Paisaje de Seattle"
+
+<p>Foto del Atardecer en Seattle<p>
+
+figure (Agregar contenido variado)
+
+figcaption (Texto pequeño que describe)
+
+id= Identificador (No se puede repetir)
+
+class= Identificador comun (Se puede repetir) (Mas de una clase en cada una)
+
+title= Poner titulo a la foto
+
+CSS (Primeros pasos)
+..........................................................
+
+<head>
+
+Textos:
+...........................................................
+<style> Esta etiqueta se coloca todo el contenido dentro
+
+
+h1 {
+    color: red; 
+    background-color: lightblue;
+}
+
+id= # en CSS 
+
+
+textoBase (
+font-family: (Familia de fuente)
+
+)
+
+textoDescriptivo (
+font-size: (Tamaño de fuente)
+)
+
+font-style (Tipo de fuente)
+
+font-weight: (Fuente normal o bold)
+Valores del 0 al 900
+
+text-decoration: Underline (Subrayado)
+text-decoration: none (No subrayado)
+
+Parrafos
+...........................................................
+
+text-align: left (Alineado a la izquierda)
+text-align: right (Alineado a la derecha)
+text-align: center (Alineado al centro)
+text-align: justify (Alineado justificado)
+(No centra las cajas)
+
+Ejemplo:
+text-align: right; width; 400px; background-color: lightcyan;
+
+margin (Margen)
+padding (Ancho)
+
+Colores
+.........................................................
+rgb: (rojo,verde,azul)
+Colores de 0 a 255
+rgba (Transparencia)
+0 al 1
+
+#SeisCifras (Codigo ExoDecimal)
+#FFFFFF (Blanco)
+
+Coloradobe.com 
+(Saber colores)
+Paletton.com
+
+Tipos de Fuente
+........................................................
+
+Letras Serif (Romanicas, Periodico)
+Letras Sans-Serif (Sin nada, Rectas)
+Letras Monospace (Mismo ancho)
+
+Dos palabras (Comillas)
+
+Mas CSS
+..........................................................
+Escribir CSS en archivo .css
+
+link rel="stylesheet" href "css1.css"
+(Cargar nuestro tema en la web)
+
+
+Comentarios
+........................................................
+
+/* Para poder comentar en CSS
+
+
+
+
+<style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+

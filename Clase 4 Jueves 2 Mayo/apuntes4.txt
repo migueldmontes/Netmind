@@ -1,0 +1,210 @@
+Especificaciones:
+................................................................
+
+Orden de importancia:
+
+Etiquetas                       0001
+Clases                          0010
+ID                              0100
+Estilos en linea                1000
+!Important                   Por encima de
+                                todo
+
+
+Mas especificidad:
+................................................................
+Combinacion de selectores:
+
+div p {  (A todos los hijos)
+color: green;
+}
+
+div < p { (Solo a los hijos directos)
+background: lightblue;
+}
+
+div span p { (Solo afecta a span)
+border-right: 5px solid green;
+}
+
+div + p { (Al siguiente hermano de div)
+font-weight: bold;
+}
+
+h3 ~ p { (Todos los siguientes hermanos)
+border-right: 5px solid blue;
+}
+
+p [title] {
+background color: lime;
+}
+
+.texto {
+    font-family: Arial;
+    color: red;
+}
+
+li.texto
+color: green;
+
+* = Cualquier cosa
+
+Recordatorio:
+.................................................................
+CSS Diner (Probar en casa)
+- Juego para aprender propiedades CSS
+
+Imagenes:
+..................................................................
+
+.imagen
+    float: right; (A la derecha)
+    float: left;  (A la izquierda) 
+    float: both;  (A ambos lados)
+- Esta propiedad saca del flujo al objeto, igual que otras muchas.
+
+    clear: both; (Restablece la pagina web)
+    li*n (Para poner varios li a continuacion)
+
+Columnas:
+..................................................................
+
+column-count: 3; (Separa el texto en columnas)
+column-gap; 55px (Medida y unidad)
+column-rule: 1px (Ancho de textos)
+
+outline: 5px solid blue (Borde de otro tipo) (No empuja nada)
+
+Importacion de Fuentes:
+..................................................................
+@fontface (Para importar una fuente en un archivo .zip)
+
+Recomendaciones:
+..................................................................
+
+GitHub (Subir proyectos programacion)
+
+Dafont.com (Para descargar fuentes externas)
+
+SevenZip (Para descomprimir archivos)
+
+Convertio (Para convertir archivos)
+
+Font Awesome (Añadir iconos y simbolos a la web)
+
+Lorem Pixel.com/200/200 (Fotos aleatorias)
+Snippet Generator (Para crear tus propios snippets)
+
+Can I Use.com (Para saber que funciona en los navegadores)
+
+Prepros (Descargar) (Para hacer web-kits automaticos)
+- Siempre codigo compilado para subir
+
+www.w3schools.com (Descargar fondos web)
+
+Codepen.io (Para consultar codigo)
+
+https://pattle.github.io/simpsons-in-css/ 
+(Los Simpson en CSS)
+
+HTML5 Pattern (Para buscar patterns)
+
+Hover Effect Ideas (Para importar efectos y animaciones)
+
+Animate CSS (Animaciones)
+
+sered.net (Crear web con hosting y dominio propio)
+
+Plugin Better Comments para VSC (Visual Studio Code)
+
+Regular Expressions (regex101.com)
+
+Animate CSS (GitHub) - Daniel Eden
+
+WordReference.com - Aprender significado palabras English
+
+www.ivan-luengo.com (Teoria sobre HTML5, CSS3 y JavaScript)
+
+Google Drive (Compartido Conmigo - Alumnos Netmind)
+
+Microsoft Teams (Curso Frontend Netmind) - miguelangel.diaz@student.bit.es
+
+Microsoft Sway (CRH- Targeta Gràfica) - Pimec & Netmind
+
+cdnjs.com / Git Hub (Servidores mas cercanos a tu posicion y copiar Codigos)
+
+getbootstrap.com (Pagina Oficial BootStrap)
+
+info-cbd.com (Pagina web Ivan CBD)
+
+Extension Google: Viewport Resizer
+(Para facilitar el responsive)
+
+Extension Google: Toogle Pesticide
+(Para saber las cajas de la web)
+
+Extension Google: JSON View
+(Para ver todos los datos del Jason)
+
+CSS Tricks (Aprender CSS)
+CSS Tricks FlexBox (Aprender Flexbox)
+CSS Gradient.io (Colores para hacer gradients, entre otras cosas)
+CSS Tricks Grids (Aprender Grids)
+
+www.freelancer.com (Pagina web para Freelance)
+
+RWD - Responsive Web Design
+
+Wattpad - Escribir libros
+
+Color Hunt - Personalizar fondos de colores
+
+FlexBox Froggy - Juego de FlexBox
+
+CSS Grid Garden - Juego de CSS y Grids
+
+CSS Dinner - Juego de CSS
+
+Codepip - Juegos de codigo
+
+FlexBox Defense - Juego de CSS y FlexBox
+
+Hex Invaders - Juego de CSS
+
+CodinGame - Juegos de Programacion
+
+Elevator Saga - Juego de JavaScript
+
+Unsplash - Imagenes aleatorias
+(Source Unsplash 200x200 cada una aleatoria )
+
+Picsum - Imagenes aleatorias
+
+Frameworks: (Buscar info)
+Knaccs, Ez CSS, BluePrint, Unsemantic, Pure.css, Gumby, Materialize, Bulma, Skeleton, CSS Mint, Semantic UI, Foundation, Bootstrap 
+
+Material Design: Google, Close Heat
+
+Bootswatch - Colores para BootStrap
+
+Behance.net - Diseños Web 
+
+Aprender Sass CSS
+
+Instalar Live Sass Compiler
+
+El gran Libro de HTML5, CSS3 y JavaScript - Marcombo 3ª Edicion
+
+JSONPlaceHolder - Buscar informacion sobre API
+
+Canvas JS (Librerias)
+
+Aprender BEM (Block Element Modifer) - Metodologia de Bloques
+
+Tipos de archivo:
+..................................................................
+.ttf (True Type)
+.otf (Open Type)
+.woff(Woff)
+
+- Es recomendable subir los 3 archivos con los 3 formatos para que se vea en todos los navegadores

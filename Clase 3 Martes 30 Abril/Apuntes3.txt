@@ -1,0 +1,71 @@
+/* Propiedades para textos */
+...........................................................
+
+
+(Id)
+#titulo1 ( color: red ); 
+color: rgb (255,0,0);
+color: #ff00000 (Hexadecimal)
+
+
+
+
+.subtitulo01 (Clases)
+
+/ *font-family: 'Fuente 1', 'Fuente 2', 'Fuente 3'; */
+font-family: Impact, sans-serif
+font-size: 20px; (Tamaño de texto)
+font-style: italic; (Cursiva)
+font-weight: (Negrita o no)
+font-variant: smalls-caps; (Pone en mayusculas tanto pequeñas como grandes)
+
+Parrafos:
+...........................................................
+(
+    line-height: 10px; (Distancia entre parrafos)
+
+)
+
+
+
+/* font: style weight size/ lineHeight family *
+font: italic bold 20px/ 20px Arial, sans-serif
+
+letter-spacing: 1px; (Espacio entre las letras)
+word-spacing: 10px; (Espacio entre las palabras)
+text-indent: 20px; (Indentación- Sangría)
+text-align: center; (Centrado) /* left, right, justify */
+text-decoration: underline; (Subrayado)
+text-decoration: none; (No Subrayado)
+text-transform: uppercase; (Mayusculas grandes)
+text-transform: lowercase; (Mayusculas pequeñas)
+text-transform: capitalize; (Primera Mayuscula mas grande)
+border-color: Color; (Borde de la caja)
+
+
+Valores para las cajas:
+...........................................................
+background-color: aqua; (Color de fondo)
+width: Ancho de la caja
+height: Alto de la caja
+padding: ancho entre el contenido y el borde (Del borde hacia dentro) - Relleno - top, bottom, right,left
+margin: margen que hay entre el borde (Del borde hacia afuera)
+padding-top: 20 px; solo arriba
+padding-right: 5px; solo derecha
+padding-bottom: 40px; solo abajo
+padding-left: 10px; solo izquierda
+
+margin-top: 25px; solo arriba
+margin-right: 14px; solo derecha
+margin-bottom: 20px; solo abajo
+margin-left: 45px; solo a la izquierda
+margin: 0px auto (para centrar una caja) 
+
+border-color: grey; (Color del borde)
+border-width: 10px; (Tamaño del borde)
+border-style: (Tipo de borde) - dotted(Puntos) , double (Dos Lineas), grooye (3D) , inset (En relieve) , outset (boton hacia afuera), ridge (Borde relieve), solid (Linea individual), dashed, none (Sin borde)
+border-radius (Radio del borde) 5 Valores
+
+Listas
+...........................................................
+list-style: square, none, decimal, lowerlatin, upperlatin, upperroman

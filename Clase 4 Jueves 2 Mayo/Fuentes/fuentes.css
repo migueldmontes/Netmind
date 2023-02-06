@@ -1,0 +1,22 @@
+@font-face {
+font-family: 'Redondita Rellena';   
+src: url('Questrial'/'Questrial-Regular.ttf') format('truetpe');
+}
+
+.deSerie {
+font-family: 'Courier New', Courier, monospace;
+}
+.Link1 {
+font-family: Raleway, sans-serif;
+}
+.Link2 {
+font-family: Sofia, sans-serif;
+}
+.Link3 {
+font-family: Comfoorta, sans-serif;
+}
+
+.Link4 {
+font-family: 'Redondita Rellena', sans-serif;
+
+}
