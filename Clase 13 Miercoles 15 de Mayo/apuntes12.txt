@@ -1,0 +1,22 @@
+Variables:
+..........
+- Espacio creado en el ordenador para almacenar informacion
+
+:root {
+--color-rojo: red;
+} 
+
+(raiz)
+
+color: var (--color-rojo);
+
+
+Before & After:
+...............
+(Pseudo-elementos)
+
+::before (Contenido antes que esto)
+content: '';
+::after (Contenido despues que esto)
+content: '';
+

@@ -1,0 +1,40 @@
+Etiquetas HTML5:
+...............................................................
+[Atributos:]
+
+Video:
+......
+video src (Para poner video a la web) 
+> Texto que se vera en el caso de que el navegador no vea el video <
+autoplay (Automaticamente se reproduce el video) 
+controls (Aparecen los controles del video) 
+muted (Video silenciado)
+loop (Repetir video)
+poster (Imagen que se ve antes de reproducir el video)
+Etiqueta <source> (Para subir el video en varios formatos)
+Formatos: mp4, webm, ogg (3 formatos que se ven en todos los navegadores)
+***************************************************************
+Audio: 
+......
+audio src (Para poner audio a la web)
+autoplay (Automaticamente se reproduce el audio)
+controls (Aparecen los controles del audio)
+muted (Audio silenciado)
+loop (Repetir audio)
+Etiqueta <source> ((Para subir el audio en varios formatos))
+Formatos: mp3, wav, aac (3 formatos que se escuchan en todos los navegadores)
+***************************************************************
+Caracteres Especiales:
+
+<details> (Caja de Preguntas y Respuestas)
+dentro de details: <summary>
+***************************************************************
+Estructura Basica HTML5:
+<header> (Titulo, logo, encabezado) - Cabecera
+<nav> (Todos los menus de navegacion de la web)
+<main> (Principal) - Todo el contenido / Cuerpo
+<footer> (Pie de la web) - Copyrights, Redes Sociales
+<section> (Seccion) - Todas las secciones de contenido iguales mas importantes
+<aside> - Trozos de informacion secundaria menos importantes
+<article> - Posts de un blog, trozos de informacion diferentes al siguiente
+***************************************************************

@@ -1,0 +1,22 @@
+body {
+    padding: 
+}
+
+aside {
+width: 2%;
+display: inline block;
+vertical-align: top;
+}
+
+main {
+    display: inline block;
+    width: 8%;
+}
+
+.column {
+    list-style: none;
+    width: 30%;
+    display: inline-block;
+    vertical-align: left;
+    margin: 3px 8px;
+}

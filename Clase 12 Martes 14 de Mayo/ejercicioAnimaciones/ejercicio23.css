@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.subtitle {
+    color: white;
+    text-align: center;
+}
+
+.corazon {
+    animation-name: corazon;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+
+@keyframes corazon {
+
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.2);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    75% {
+        transform: scale(1.1);
+    }
+
+
+}
