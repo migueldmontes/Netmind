@@ -1,0 +1,45 @@
+<script>
+
+//* Ejercicio Bucles 18
+-----------------------
+
+const letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C',
+   'K', 'E', 'T'];
+
+let dni;
+let dniText;
+
+do {
+    dniText = prompt("Introduzca el numero de su DNI")
+    dni = Number(dniText)
+
+    if (dniText == null) {
+        alert("El numero que ha introducido es incorrecto");
+        continue;
+    }
+    
+    dniText = dniText.trim();
+
+    if (dniText.length != 8 || Math.sign(dni) == 1 
+}
+
+
+//* Ejercicio Bucles 19
+-----------------------
+
+let palabra = prompt('Dime una palabra') 
+.toLowerCase();
+let vocales = 0;
+let consonantes = 0;
+
+for(letra of palabra) {
+    if(letra == 'a' || letra = 'e' || letra = 'i' || letra = 'o' || letra == 'u') {
+        vocales++;
+    }
+}
+console.log('Tu palabra tiene ${vocales} vocales, ${consonantes} consonantes y mide ${palabra.lenght} caracteres,');
+
+
+</script>
+
+

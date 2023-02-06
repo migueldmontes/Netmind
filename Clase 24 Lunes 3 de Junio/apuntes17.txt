@@ -1,0 +1,46 @@
+JAVASCRIPT 3
+..................................................................
+
+Funciones Parte I:
+------------------
+Podriamos decor que las funciones son bloques de codigo que podemos guardar para utilizar mas adelante.
+
+Las declaramos con la palabra reservada: function
+
+Los nombres de las funcuones vienen seguidas de dos paréntesis () que pueden tener atributos dentro: function nombreFuncion()
+
+Todo el bloque de codigo de la funcion ira entre llaves {}
+
+Ejemplo:
+--------
+function decirHola() {
+    console.log('Hola');
+}
+
+Ahora ya tenemos nuestro bloque de código almacenado con el nombre decirHola. Lo podremos usar en cualquier parte de nuestro código. Solo nos faltara llamar o invocar esa funcion cuando la necesitemos. Para ello pondremos simplemente el nombre seguido de los paréntesis.
+
+Ejemplo: decirHola();
+--------
+Lo que hará esta funcion cada vez que la llamemos será imprimir "Hola" en consola
+
+
+Retorno de una funcion:
+-----------------------
+Ya hemos visto que las funciones ejecutan un código cuando las llamamos. Pero tambien devuelven un valor de retorno cuando se ejecutan. Un valor que si no le indicamos lo contrario será siempre undefined
+
+Para decirle que retorne algo utilizamos la palabra reservada return;
+
+Ejemplos:
+--------
+function decirHola() {
+    return 'Hola';
+}
+let retornoFuncion = decirHola();
+console.log(retornoFuncion); // Hola
+
+function decirHola() {
+    let palabra1 = 'Hola';
+    let palabra2 = ' gente!';
+    return palabra1 + palabra2;
+}
+console.log(decirHola()); // Hola gente!

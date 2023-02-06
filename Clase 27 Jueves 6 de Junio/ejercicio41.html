@@ -1,0 +1,193 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 41</title>
+</head>
+<body>
+<script>
+
+//* Ejercicio 1 Funciones
+-------------------------
+
+class Persona {
+    constructor (nombre, edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+    getDescription () {
+        let bio = `${this.nombre} tiene $(this.edad} años` return bio;
+    }
+}
+
+//* Subclase
+------------
+
+class Alumno extends Persona {
+    constructor (nombre, edad, curso, notas = []) {
+        super (nombre, edad);
+        this.curso = curso;
+        this.notas = notas;
+    }
+    getDescription () {
+        return super.getDescription() + ´, está cursando ${this.curso} y las notas que tiene son ${this.notas.join (´,´)}. su nota media es un ${this.notaMedia () }´
+    }
+    notaMedia () {
+        let sumaNotas = 0;
+        let notaMedia = 0;
+        for (let nota of this.notas) {
+            sumaNotas += nota;
+        }
+        notaMedia = sumaNotas / this.notas.length;
+        return notaMedia;
+    }
+}
+class Profesor extends Persona {
+    constructor (nombre, edad, asignatura, sueldo) {
+        super (nombre, edad);
+        this.asignatura = asignatura;
+        this.sueldo = sueldo;
+        this.faltasAssistencia = 0;
+    }
+    infoProfe () {
+        return super.getDescription () + ´, da clases de ${this.asignatura}, ha faltado ${this.faltasAssistencia} veces y su sueldo es de ${this.sueldo} €.
+    }
+}
+
+
+let persona1 = new Persona ('Ruben', 24);
+
+let alumno1 = new Alumno ('Irena', 20, 'Frontend', [6, 7, 9, 4])
+
+let profesor1 = new Profesor ('Ivan', 32, 'Programacion', 1000);
+
+console.log(persona1);
+console.log(alumno1);
+console.log(profesor1);
+console.log(persona1.getDescription ());
+console.log(alumno1.getDescription ());
+console.log(profesor1.infoProfe ());
+
+
+//* Ejercicio Palabras Usuario
+------------------------------
+
+
+// Version con Strings:
+.......................
+
+let texto;
+let salirDelBucle;
+let resultado = ";"
+
+do {
+    texto = prompt ('Dime una frase, si quieres acabar dale a cancelar');
+    salirDelBucle = texto;
+    if (texto == null) {
+        texto = "";
+    } else {
+        texto = texto.trim(;
+    }
+
+    if (resultado == "" && texto != "") {
+        resultado += texto;
+    } else if (resultado != "" && texto != "") {
+        resultado += '-' + texto;
+    } else {
+        resultado = resultado;
+    }
+
+    //while (confirm('Quieres mas?'))
+}while(salirDelBucle != null)
+
+/* let posicionNull = resultado.lastIndexOf('-');
+resultado = resultado.alice (0, posicionNull) */
+
+console.log (resultado);
+
+// Version con Array:
+.....................
+
+let texto;
+let salirDelBucle;
+let resultado = [];
+
+do {
+    texto= prompt ('Dime una frase, si quieres acabar dale a cancelar');
+    salirDelBucle = texto;
+    if (texto == null) {
+        texto = "";
+    } else {
+        texto = texto.trim ();
+    }
+
+    if (texto != "") {
+        resultado.push(texto);
+    } else {
+        resultado = resultado;
+    }
+
+    //while (confirm('Quieres mas?'))
+} while (salirDelBucle) != null)
+
+console.log(resultado.join('-'));
+
+//* Ejercicio Funciones (Extra)
+-------------------------------
+
+class Mascota {
+    constructor(nombre, edad, especie, duenios) = [] {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.especie= especie;
+        this.duenios= duenios;
+    }
+
+    infoMascota() {
+        let biografia = '${this.nombre} es un ${this.especie} que tiene ${this.edad} años y sus dueños son: ${this.duenios.join} 
+    }
+
+    addDuenio(nuevoDuenio) {
+        this.duenios.push("nuevoDuenio");
+    }
+
+    let perro1 = new Mascota ('Tays', 13, 'perro', {'Ruben', 'Miguel'} );
+    console.log(perro1);
+    console.log(perro1.infoMascota());
+
+
+}
+
+//* Ejercicio Funciones 01 (Extra)
+---------------------------------
+class Humano{
+    constructor (nombre, edad, raza, profesion) = [] {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.raza = raza;
+        this.profesion = profesion;
+    }
+    infoHumano () {
+        let biografia = '${this.nombre} tiene ${this.edad} que es de nacionalidad ${this.raza} y trabaja en ${this.profesion}' 
+    }
+    let persona1 = newHumano ('David', 55, 'alien');
+    console.log (persona1);
+    console.log (persona1.infoHumano());
+
+}
+
+//* Ejercicio Funciones 02 (Extra)
+----------------------------------
+quitarDuenio(quitarDuenio) {
+    for(let duenio of this.duenios) {
+        if(duenio == 'quitarDuenio') {
+            this.duenios.splice(this.duenios.indexOf(quitarDuenio),1);
+            )
+        }
+    }
+}
+
+
+
+</script>
+</body>
+</html>

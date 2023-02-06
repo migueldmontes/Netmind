@@ -1,0 +1,77 @@
+JAVASCRIPT 5:
+.....................................................................
+
+Crear nuevos objetos con el operador new:
+-----------------------------------------
+El operador new nos permite crear objetos desde cero. Para ello utilizamos el operador new seguido del constructor. Por ejemplo, vamos a crear un nuevo string en forma de objeto.
+
+Ejemplo:
+--------
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+let texto1 = new String('¡Hola alumno!');
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Podemos crear objetos de todo tipo como por ejemplo strings, números,Arrays o fechas
+
+Ejemplo:
+--------
+let texto1 = new String('¡Hola alumno!'); // ¡Hola alumno!
+let numero1 = new Number(23); // 23
+let array1 = new Array(5, 14, 'hola'); // [5, 14, 'hola']
+let fecha1 = new Date();
+
+Crear fechas con new Date();
+----------------------------
+Para crear una fecha que nosotros decidimos utilizamos:
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+new Date(fecha que queremos);
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+La fecha se puede dar en los siguientes formatos:
+
+> Milisegundos => Se le da un número de milisegundos desde las doce de la noche de enero de 1970. Algo como 1559531244439
+
+> Fecha en forma de cadena de texto => Le damos una fecha como se podria escribir en ingles por ejemplo: "Dec 25 1995" o otra mas completa como "Mon, 25 Dec 1995 13:30:00 GMT+0430"
+
+> año, mes, dia (en números) => Se le dan valores numéricos que nos digan el año, mes y dia separados por comas. Por ejemplo: 2015, 0, 15. Se puede completar con los valores por orden de horas, minuutos, segundos, milisegundos.
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+- OJO! 
+Recuerda que el mes va del 0 al 11 siendo 0 enero y 11 diciembre!
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Si entre los paréntesis no ponemos nada, lo que estaremos haciendo es crear una fecha nueva a partir de el mismo momento en que se cargue la página.
+
+Ejemplo:
+--------
+
+let fechaDeHoy = newDate();
+console.log(fechaDeHoy); // Mon Jun 03 2019 05:22:50 GMT+0200 (hora de verano de Europa central)
+
+Sacar info de una fecha:
+------------------------
+A partir de una fecha creada, sea establecida por nosotros o sea la de ahora mismo, podemos sacar informacion de esa fecha de la siguiente manera.
+
+> fechaDeHoy.getHours(); // 05 => Nos devuelve las horas
+> fechaDeHoy.getMinutes(); // 22 => Nos devuelve los minutos
+> fechaDeHoy.getSeconds(); // 50 => Nos devuelve los segundos
+> fechaDeHoy.getDay(); // 1 => Nos devuelve un día de la semana siendo 0 el domingo y 6 el sabado
+> fechaDeHoy.getDate(); // 3 => Nos devuelve el dia del mes
+> fechaDeHoy.getMonth(); // 5 => Nos devuelve el mes del año siendo 0 enero y 11 diciembre.
+> fechaDeHoy.getFullYear(); // 2019 => Nos devuelve el año
+> fechaDeHoy.getTime(); // 1559531244439 => Nos devuelve los milisegundos desde 1970.
+
+Cambiar info de una fecha:
+--------------------------
+Si por el contrario lo que queremos es modificar una parte de una fecha utilizaremos lo siguiente:
+
+> fechaDeHoy.setTime(); => Le damos milisegundos y nos devuelve una fecha concreta.
+> fechaDeHoy.setFullYear(); => Cambiamos el año de la fecha
+> fechaDeHoy.setDate(); => Cambiamos el dia del mes de la fecha
+> fechaDeHoy.setMonth(); => Cambiamos el mes de la fecha
+> fechaDeHoy.setHours(); => Cambiamos la hora de la fecha. Tambien permite cambiar minutos y segundos
+> fechadeHoy.setMinutes(); => Cambiamos los minutos de la fecha
+> fechadeHoy.setSeconds(); => Cambiamos los segundos de la fecha

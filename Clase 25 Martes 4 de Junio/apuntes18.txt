@@ -1,0 +1,115 @@
+JAVASCRIPT 4
+.....................................................................
+
+Arrow Functions:
+----------------
+nombre de la funcion = (parametros) ==> {cuerpo o valor devuelto}
+    
+// Antigua forma de escribir funciones:
+function saludar (nombre, apellido)!`);
+console.log(`¡Hola ${nombre} ${apellido}!`);
+
+// Nueva forma de escribir funciones:
+const saludar = (nombre, apellido) ==> {
+    console.log(`¡Hola ${nombre} ${apellido}!`);
+}
+
+Objetos Parte I:
+---------------
+Para explicar lo que son los objetos en programacion lo vamos a comparar con un objeto en la vida real por ejemplo un lápiz.
+
+Propiedades de los Objetos:
+---------------------------
+Hay una serie de cosas que caracterizan al lápiz, como por ejemplo que es de madera, que es duro o blando, que es de un color determinado, etc. A todo esto le llamamos propiedades, pues pasara lo mismo en JavaScript. Los objetos tendrán unas propiedades que dirán caracteristicas de nuestros objetos
+
+Creacion de un objeto:
+----------------------
+Para crear un objeto lo hacemos a través de las llaves [] y dentro pondremos las propedades con sus valores.
+
+Ejemplo:
+........
+let personaje = {
+nombre: 'Gandalf'
+vida: 100
+amigos: ['Bilbo', 'Radagast']
+};
+
+Llamar a una propiedad - Nomenclatura del punto.:
+-------------------------------------------------
+Para llamar a cada propiedad utilizamos el punto seguido del nombre de la propiedad
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nombreObjeto.nombrePropiedad
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Ejemplo:
+........
+console.log(personaje.nombre); // Gandalf
+console.log(personaje.vida); // 100
+console.log(personaje.fuerza); // 35
+console.log(personaje.amigos[0]); // Bilbo
+console.log(personaje.amigos[1]); // Radagast
+
+Si tuviéramos muchisimas propiedades hay una manera que ya conocemos para recorrer el objeto y ver todas las propiedades. El bucle for...in
+
+Ejemplo:
+........
+for (let propiedad in personaje) {
+    console.log(propiedad);
+}
+
+// nombre
+// vida
+// amigos
+
+Y si lo que queremos es acceder a todos los valores de cada propiedad lo haríamos asi:
+
+for (let propiedad in personaje) {
+    console.log(personaje[propiedad]);
+}
+
+// Gandalf
+// 100
+// 0: "Bilbo"
+// 1: "Radagast"
+
+Como veis estamos tratando al objeto como un array pero en realidad no lo es, y si intentais usar el bucle for...of como hemos hecho anteriormente vereis que da error, porque en este caso personaje no es un array.
+
+No obstante podemos utilizar for...of para recorrer el array dentro del objeto personaje.
+
+for(let amigo of personaje.amigos) {
+    console.log(amigo);
+}
+
+// Bilbo
+// Radagast
+
+Tambien se puede llamar a la propiedad con corchetes [] pero solo se utliza en algunas ocasiones.
+
+let nombrePropiedad = 'nombre';
+let miObjeto = {
+nombre: 'Gandalf'
+vida: 100
+};
+console.log(miObjeto[nombrePropiedad]); // Gandalf
+
+En este caso no podríamos haber utilizado el punto miObjeto.nombrePropiedad porque hubiera buscado la variable nombrePropiedad, que no existe.
+
+Tambien se utilizan corchetes cuando la propiedad tiene espacios por ejemplo:
+
+let miObjeto = {
+nombre: 'Gandalf'
+'mi vida': 100
+};
+console.log(miObjeto['mi vida']); // 100
+
+Palabra clave this:
+-------------------
+La palabra clave this representa al objeto dentro del cual se encuentra el método. En el caso anterior, la palabra thid, hace referencia al objeto personaje. Vamos a escuchar solo el metodo describir de antes pero utilizando this.
+
+Ejemplo:
+........
+describirPersonaje: function() {
+    let descripcion = ('${this.nombre} tiene ${this.puntos.vida} puntos de vida y ${this.puntos.mana} puntos de maná. Su nivel es de fuerza es ${this.fuerza}`);
+    return descripcion;
+}

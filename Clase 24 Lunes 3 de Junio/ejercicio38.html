@@ -1,0 +1,65 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 38</title>
+</head>
+<body>
+<script>
+    
+ //* Ejercicio Funciones 01
+--------------------------
+
+function hoyQuieroComer (comida) {
+   console.log('Hoy me apetece $(comida) para cenar');
+}
+
+hoyQuieroComer("garbanzos");
+
+//* Ejercicio Funciones 02
+--------------------------
+
+function hacerCubo(numero) {
+    let cubo = Math.pow(numero,3);
+    return cubo;
+
+    console.log(hacerCubo(5));
+    hacerCubo(5);
+}
+
+
+//* Ejercicio Funciones 03
+-------------------------
+
+function velocity (km, hour) {
+    let meters, seconds;
+
+    meters = km/1500;
+    seconds = km/3600;
+
+    return '$(meters) / &(seconds)';
+}
+
+console.log(velocity(prompt("Ingrese los kilometros por hora")));
+
+//* Ejercicio Funciones 04
+-------------------------
+
+function farea (height, width) {
+    let area = (width)
+    return 'El triangulo tiene tanta ${area} ca2';
+}
+
+console.log()
+
+
+//* Ejercicio Funciones 05
+-------------------------
+
+function precioMasIva(precio, iva = 21) {
+    let precioFinal = precio + (precio * iva / 100);
+    console.log(El precio indicado mas IVA = $ {precioFinal});
+}
+
+</script>
+</body>
+</html>
