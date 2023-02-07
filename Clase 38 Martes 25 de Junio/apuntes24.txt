@@ -1,0 +1,33 @@
+DISEÑO RESPONSIVE:
+-----------------------------------------------------
+
+Colocar al inicio de la plantilla:
+
+Atributos:
+..........
+
+<link rel="stylesheet" href="responsive_mobile.css" media="screen and (max-width: 449px)">
+min-width: px
+
+Media Queries:
+..............
+
+@media - Solo cambiara al llegar al tamaño adecuado
+
+(max-width: px) 
+(min-width: px)
+
+Ejemplos:
+.........
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8em;
+    }
+}
+
+@media (min-width: 800px) {
+    h1 {
+        color: lightblue;
+    }
+}

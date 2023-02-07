@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    color: rgba(94, 255, 156, 0.753);
+    color: rgba(87, 36, 253, 0.795);
+    color: #ffff;
+    color: rgba(104, 104, 104, 0.2);
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    
+}

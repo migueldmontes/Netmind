@@ -1,0 +1,40 @@
+/** GRID: (Rejillas) **/
+----------------------------------------------------
+
+Coloca las celdas y moverlas en 2 Dimensiones.
+
+- Debe indicarse siempre el numero de celdas y columnas.
+
+
+Ejemplo:
+........
+
+.container {
+    
+    display: grid;
+    grid-template-columns: 100px auto 100px 100px
+    grid-template-rows: 60px 60px 60px 60px
+    grid-column-gap: 10px;
+    - Separacion entre columnas
+    grid-row-gap: 20px;
+    - Separacion entre filas
+    grid-gap: 20px;
+    - Separacion de ambos
+    grid-lines: 
+    - Linias de cada columna
+    grid-column-start: 2;
+    - Empieza la columna donde tu quieres
+    grid-column-end: 3;
+    - Finaliza la columna donde tu quieres
+    grid-auto-rows: 50px;
+    - Columnas automaticas donde tu quieres
+
+}
+
+ auto: Para variar segun el tamaño de la ventana
+
+ fr: Se utiliza para fraccionar (como unidades) y divide el espacio.
+
+ repeat(12, 1fr);
+ - Para repetir tanto filas como columnas queramos.
+

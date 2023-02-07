@@ -1,0 +1,25 @@
+Vocabulario Grid HTML5:
+-----------------------
+
+repeat (auto-fit) - Repite automaticamente
+min(max) - Anchura minima / Anchura máxima
+
+grid-template-areas - Areas de cada cuadricula 
+"Palabras primera fila"
+"Palabras segunda fila
+"Palabras tercera fila"
+grid-template-columns - Areas de cada columna
+grid-auto-flow: column, row, dense;
+
+
+justify-items: flex-start; 
+justify-items: flex-end;
+justify items: center;
+align-items: center;
+align-items: flex-start;
+align-content: space-evenly;
+justify-content: space-evenly;
+justify-content: space-between;
+justify-self: center;
+
+Clip Path CSS - Recortar y Editar Imagenes

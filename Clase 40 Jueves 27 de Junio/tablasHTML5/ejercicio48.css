@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+    width: 60vw;
+    height: 60vh;
+    margin: 3em auto;
+
+
+}
+
+body {
+    min-height: 100px;
+    background-color: cornflowerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+
+
+div {
+    border: solid 1px black;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_click {
+    color: black;
+    background: -webkit-linear-gradient();
+}
+
+.div1 {
+    grid-row: 1/2;
+    grid-column: 1/ -1;
+}
+
+.div2 {
+    grid-row: 2 / 6;
+    grid-column: 1 / 2;
+
+}
+
+
+.div4 {
+    grid-row: 2 / 6;
+    grid-column: 6 / 7
+
+}
+
+
+.div6 {
+    grid-row: 2 / 6;
+    grid-column: 6 / 7;
+
+}
+
+.div7 {
+
+}
+
+.div8 {
+
+}
+
+.div9 {
+    grid-row: 3 / span 3;
+
+}
+
+.div10 {
+
+}
+
+.div11 {
+    grid-row: 4 / 6;
+    grid-column: 2 / span 2;
+
+}
+
+.div12 {
+
+}
+
+.div13 {
+
+}
+
+.div14 {
+    grid-row: 6 / 7;
+    grid-column: 1 / -1;
+
+}
